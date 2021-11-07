@@ -935,11 +935,6 @@
   "resolved" "https://registry.nlark.com/@trysound/sax/download/@trysound/sax-0.2.0.tgz"
   "version" "0.2.0"
 
-"@types/history@*":
-  "integrity" "sha1-HPttYO84IsWJ8Y5w+LEvmijOhyQ="
-  "resolved" "https://registry.nlark.com/@types/history/download/@types/history-4.7.9.tgz"
-  "version" "4.7.9"
-
 "@types/http-proxy@^1.17.5":
   "integrity" "sha1-MOqFzCyGg2g1Kjfw0NNYHiSDTG8="
   "resolved" "https://registry.nlark.com/@types/http-proxy/download/@types/http-proxy-1.17.7.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fhttp-proxy%2Fdownload%2F%40types%2Fhttp-proxy-1.17.7.tgz"
@@ -972,23 +967,6 @@
   "resolved" "https://registry.npmmirror.com/@types/react-dom/download/@types/react-dom-17.0.11.tgz?cache=0&sync_timestamp=1635922942583&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Freact-dom%2Fdownload%2F%40types%2Freact-dom-17.0.11.tgz"
   "version" "17.0.11"
   dependencies:
-    "@types/react" "*"
-
-"@types/react-router-dom@^5.3.2":
-  "integrity" "sha1-69jhRc8FbbXGbrHaxjxy9S6FQu4="
-  "resolved" "https://registry.npmmirror.com/@types/react-router-dom/download/@types/react-router-dom-5.3.2.tgz"
-  "version" "5.3.2"
-  dependencies:
-    "@types/history" "*"
-    "@types/react" "*"
-    "@types/react-router" "*"
-
-"@types/react-router@*":
-  "integrity" "sha1-CHCRAGITsRBC85Vw5c1BSGNpOWg="
-  "resolved" "https://registry.npmmirror.com/@types/react-router/download/@types/react-router-5.1.17.tgz"
-  "version" "5.1.17"
-  dependencies:
-    "@types/history" "*"
     "@types/react" "*"
 
 "@types/react@*", "@types/react@^17.0.34":

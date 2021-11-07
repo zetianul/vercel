@@ -1,14 +1,24 @@
 import React, { Component } from "react";
+import Games from "./Pages/Games";
+import Home from "./Pages/Home";
+import { Route, Routes, Link } from "react-router-dom"
 
 class App extends Component<any, any>{
     render() {
-        return (
-            <div>
-                <h1>
-                    my own page 1122
-                </h1>
-            </div>
-        )
+      return (
+        <div>
+          <h1>
+            hello world
+          </h1>
+          <div>
+            <Routes>
+              <Route path={"/"} element={<Home />} />
+              <Route path={"/games"} element={<Games />} />
+            </Routes>
+          </div>
+
+        </div>
+      )
     }
 }
 
