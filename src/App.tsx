@@ -10,6 +10,8 @@ class App extends Component<any, any>{
           <h1>
             hello world
           </h1>
+          <Link to="/">home</Link>
+          <Link to="/games">games</Link>
           <div>
             <Routes>
               <Route path={"/"} element={<Home />} />
